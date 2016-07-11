@@ -61,6 +61,7 @@
   <ItemGroup>
     <Content Include="Demo.htm" />
     <Content Include="Demo.js" />
+    <Content Include="Export.aspx" />
     <Content Include="JS\HighChart\adapters\standalone-framework.js" />
     <Content Include="JS\HighChart\adapters\standalone-framework.src.js" />
     <Content Include="JS\HighChart\highcharts-3d.js" />
@@ -113,6 +114,13 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Export.aspx.cs">
+      <DependentUpon>Export.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Export.aspx.designer.cs">
+      <DependentUpon>Export.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ExportHttpHandler\ExportChart.cs" />
     <Compile Include="ExportHttpHandler\Exporter.cs" />
     <Compile Include="ExportHttpHandler\HttpHandler.cs" />
