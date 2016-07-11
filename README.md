@@ -21,3 +21,7 @@ HighChart本身提供了php版,java/Servlet版,java/Stuts2版,asp.NET版的本�
 
 ##5.计划添加
 - aspx页响应导出请求
+
+##6.参考项目
+- [Export server for ASP.NET provided by Clément Agarini](https://github.com/imclem/Highcharts-export-module-asp.net)
+- [Highcharts_Export_.Net by lanhouzi](https://github.com/lanhouzi/Highcharts_Export_.Net)
