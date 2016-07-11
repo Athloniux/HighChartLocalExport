@@ -6,6 +6,7 @@ HighChart本身提供了php版,java/Servlet版,java/Stuts2版,asp.NET版的本�
 
 ##2.实现功能
 - 使用HttpHandler处理导出
+- aspx页响应导出请求
 - JPEG,PNG,PDF,SVG四种格式的导出
 - 隐藏的系列导出文件中不显示
 - 增加默认宽度
@@ -20,7 +21,7 @@ HighChart本身提供了php版,java/Servlet版,java/Stuts2版,asp.NET版的本�
 - 屏蔽了.NET中默认的不安全Request代码检测
 
 ##5.计划添加
-- aspx页响应导出请求
+- 暂无
 
 ##6.参考项目
 - [Export server for ASP.NET provided by Clément Agarini](https://github.com/imclem/Highcharts-export-module-asp.net)
